@@ -1,0 +1,18 @@
+To run this project successfully on your PC, you need to follow these steps:
+
+Make sure you have Python 3 and pip installed on your system. You can check the installation guide for your operating system here.
+Create a virtual environment for your project using the venv module. You can follow the instructions here to create and activate a virtual environment.
+Install Flask and other required libraries using the pip install -r requirements.txt command in your project directory. The requirements.txt file contains the list of libraries and their versions that are needed for this project.
+Set the FLASK_APP environment variable to the name of your main Python file, such as app.py. You can use the export FLASK_APP=app.py command on Linux or macOS, or the set FLASK_APP=app.py command on Windows.
+Set the FLASK_ENV environment variable to development to enable the debug mode and the auto-reload feature. You can use the export FLASK_ENV=development command on Linux or macOS, or the set FLASK_ENV=development command on Windows.
+Run the Flask application using the flask run command. You should see a message like this:
+* Serving Flask app 'app.py' (lazy loading)
+* Environment: development
+* Debug mode: on
+* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+* Restarting with stat
+* Debugger is active!
+* Debugger PIN: 123-456-789
+
+Open your web browser and go to the URL http://127.0.0.1:5000/ to see the home page of your web application. You can also use the debugger PIN to access the interactive debugger if you encounter any errors.
+Enjoy using the web application and provide your feedback. 😊
